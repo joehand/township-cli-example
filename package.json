@@ -1,0 +1,19 @@
+{
+  "name": "township-cli-example",
+  "version": "0.0.1",
+  "description": "Township CLI Example",
+  "bin": {
+    "township-client": "cli.js"
+  },
+  "scripts": {
+    "test": "standard && tape tests/*.js | tap-spec"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "exit": "^0.1.2",
+    "prompt": "^1.0.0",
+    "subcommand": "^2.0.4",
+    "township-client": "0.0.0"
+  }
+}
