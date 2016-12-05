@@ -1,22 +1,21 @@
 var usage = `
   USAGE:
-    staticland {command} [options]
+    client {command} [options]
 
   COMMANDS:
     register,  create an account on a township server
     login,     log in to a township server
-    logout,    log out of a township server
     whoami,    show which user you're using on which township server
     help,      show this help message
 
   HELP
-    staticland help
+    client help
 
   LOGIN
-    staticland login --email hi@example.com --password sosecret --server api.static.land
+    client login --email hi@example.com --password sosecret --server api.static.land
 
   WHOAMI
-    staticland whoami
+    client whoami
 `
 
 module.exports = {
